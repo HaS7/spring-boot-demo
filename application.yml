@@ -8,3 +8,11 @@ spring:
     listener:
       simple:
         acknowledge-mode: MANUAL
+  datasource:
+    url: jdbc:mysql://47.103.10.116:3306/spring_cache?ullNamePatternMatchesAll=true&amp;serverTimezone=GMT%2b8?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: Has7@xiaobei1914
+
+  redis:
+    host: 47.103.10.116
+    port: 6379
